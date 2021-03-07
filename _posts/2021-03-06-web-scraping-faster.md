@@ -7,6 +7,7 @@ tags:
   - web scraping
   - programming
   - beautifulsoup
+  - concurrency
   - asynchronous requests
 ---
 
