@@ -2,8 +2,6 @@
 permalink: /about/
 title: "About"
 ---
-### :wrench: under construction
-
 
 I was born and raised in the lovely city of Curitiba, Brazil. In fact, if I were to live in Brazil, I wouldn't want to live anywhere else. But the truth is I don't live in Brazil for a couple of years now, haven chosen to spend most of my days in Israel and Haifa has been my home so far.
 
