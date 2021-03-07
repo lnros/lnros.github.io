@@ -10,7 +10,3 @@ One things I miss the most about Brazil (apart from my family and friends obviou
 Besides talking about beer (which I try not to do much and fail), I am intrigued by how cities are developing and our role as in their development. During my master's studies, I was exposed to a new paradigm of last-mile delivery in urban environments and I couldn't stop reading about smart cities ever since and I would be extremely excited to be part of this movement somehow.
 
 If any of this appeals to you, please contact me by e-mail or by my LinkedIn profile. If not, thanks for stopping by anyways :)
-
-
-> If you want to know about my professional and educational background, please take a look atmy LinkedIn page; here, I wrote to you as a person not as a CV. 
-
