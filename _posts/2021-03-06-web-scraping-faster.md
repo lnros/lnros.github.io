@@ -122,7 +122,7 @@ In batches takes: 59.04 seconds
 
 Pretty amazing, right? If you want to better understand why this difference of around 5 times happens, I recommend reading more about [concurrency][concurrency] and about [*gevent*][gevent], the library used by *grequests* to make concurrency happen.
 
-You can check my full code for this inmy GitHub [repo][imdb-repo].
+You can check my full code for this in my GitHub [repo][imdb-repo].
 
 [requests-docs]: https://requests.readthedocs.io
 [soup-docs]: https://beautiful-soup-4.readthedocs.io/en/latest/
