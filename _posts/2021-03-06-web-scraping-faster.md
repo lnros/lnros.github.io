@@ -4,7 +4,7 @@ date: 2021-03-06
 categories:
   - python
 tags:
-  - web scraping
+  - web-scraping
   - programming
   - beautifulsoup
   - concurrency
