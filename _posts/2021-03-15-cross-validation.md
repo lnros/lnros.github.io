@@ -47,7 +47,7 @@ MSE is defined as:
 
 ![MSE](https://wikimedia.org/api/rest_v1/media/math/render/svg/e258221518869aa1c6561bb75b99476c4734108e)
 
-Where *n* is the number of observations, *Y* is the true target value and *Ŷ* is the predicted value. The K-Fold cross-validation, thus, is calculated as:
+Where *n* is the number of observations, *Y*&nbsp; &nbsp;is the true target value and *Ŷ*&nbsp; &nbsp;is the predicted value. The K-Fold cross-validation, thus, is calculated as:
 
 ![CV-K-fold](https://latex.codecogs.com/svg.latex?\Large&space;CV_{k}=\frac{1}{k}\sum_{i=1}^{k}MSE_i).
 
