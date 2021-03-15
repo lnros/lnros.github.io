@@ -3,12 +3,12 @@ title: "Cross-validation: what is it and how should I use it?"
 date: 2021-03-15
 categories:
   - statistics
-  - machine learning
+  - machine-learning
 tags:
   - resampling
   - cross-validation
-  - model assessment
-  - model selection
+  - model-assessment
+  - model-selection
 ---
 
 ### Introduction

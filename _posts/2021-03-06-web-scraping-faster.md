@@ -8,7 +8,7 @@ tags:
   - programming
   - beautifulsoup
   - concurrency
-  - asynchronous requests
+  - asynchronous-requests
 ---
 
 ### Using *grequests* to scrape multiple pages
