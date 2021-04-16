@@ -18,7 +18,8 @@ In this tutorial you will learn how to setup Jupyter Notebooks in your server. L
 
 So you heard that working on the cloud is fun, right? Let's set you up with a basic and free server on Amazon Web Service (AWS). First, sign up [here][aws-registration] and then log in [here][aws-login]. Choose a region that suits you like in [Figure 1](#Figure1).
 
-![aws-region](/assets/images/aws-region.png 'aws-region') 
+<!-- ![aws-region](/assets/images/aws-region.png 'aws-region')  -->
+<img src="/assets/images/aws-region.png" />
 <a name="Figure1"></a>
 *Figure 1: Choosing a region based on your location.*
 
@@ -26,7 +27,9 @@ So you heard that working on the cloud is fun, right? Let's set you up with a ba
 
 Now, we have to create a secure SSH key pair that will enable you to access the server from your local machine. For this, you have to go to EC2 service → Network & Security → Key pairs as in [Figure 2](#Figure2). Click in `Create key pair` and choose its name. If you are on Windows, use a `ppk` file; if you are on Mac or Linux, use a `pem` file. Save this file in a secure location.
 
-![aws-keypair](/assets/images/aws-keypairs.png) <a name="Figure2"></a>
+<!-- ![aws-keypair](/assets/images/aws-keypairs.png)  -->
+<img src="/assets/images/aws-keypairs.png" />
+<a name="Figure2"></a>
 *Figure 2: Creating an SSH key pair.*
 
 In the terminal, run `chmod 400 path/to/key/file` so that later on you will be able to easily access the server.
@@ -35,7 +38,8 @@ In the terminal, run `chmod 400 path/to/key/file` so that later on you will be a
 
 Go to EC2 service → Instances → Instances as shown in [Figure 3](#Figure3). 
 
-![aws-instance](/assets/images/aws-instance.png) 
+<!-- ![aws-instance](/assets/images/aws-instance.png)  -->
+<img src="/assets/images/aws-instance.png" />
 <a name="Figure3"></a>
 
 *Figure 3: Going to instances to create a new server.*
@@ -44,7 +48,9 @@ Click on `Launch instances` and select your choice of Amazon Machine Image (AMI)
 
 
 
-![aws-freetier](/assets/images/aws-freetier.png) <a name="Figure4"></a>
+<!-- ![aws-freetier](/assets/images/aws-freetier.png) -->
+<img src="/assets/images/aws-freetier.png" />
+ <a name="Figure4"></a>
 *Figure 4: Some of the free tier options.*
 
 To access the server through the command line, copy the DNS of the server in Instance summary → Public IPv4 DNS. The default user in the Ubuntu Server is `ubuntu`, so to connect you have to:
@@ -63,19 +69,24 @@ $ ssh -i mykey.pem ubuntu@ec2-18-156-165-52.eu-central-1.compute.amazonaws.com
 
 We need to add a new security group to our instance before being able to run Jupyter on it. To do that, we go to EC2 service → Network & Security → Security Groups as in [Figure 5](#Figure5). Click on `Create security group` and add a name and a description. 
 
-![aws-security-group](/assets/images/aws-security-group.png) 
+<!-- ![aws-security-group](/assets/images/aws-security-group.png)  -->
+<img src="/assets/images/aws-security-group.png" />
 <a name="Figure5"></a>
 
 *Figure 5: About to create a new security group.*
 
 After that, in Inbound rules, click on `Add rule` three times. One of them will be  `Custom TCP`, the second `HTTPS`, and the third `SSH`. In all of them the source has to be `Anywhere` instead of `Custom` as in [Figure 6](#Figure6). The Custom TCP sets in which port the website will run; SSH allows us to connect to the instance with SSH; and HTTPS makes it possible for us to actually connect our instance to a website. Fixing source at anywhere allows any IP address to connect to the instance, so use it with caution. Now, click on `Create security group`.
    
-![aws-security-group2](/assets/images/aws-security-group2.png) <a name="Figure6"></a>
+<!-- ![aws-security-group2](/assets/images/aws-security-group2.png)  -->
+<img src="/assets/images/aws-security-group2.png" />
+<a name="Figure6"></a>
 *Figure 6: Creating new security group rules.*
 
 Going back to your instance, EC2 service → Instances → Instances, right click on your instance, then on Security, and Change security groups as in [Figure 7](#Figure7). Then, in Associated security groups, add the security group you just created. Click on `Save`.
 
-![aws-adding-sec-group](/assets/images/aws-adding-sec-group.png) <a name="Figure7"></a>
+<!-- ![aws-adding-sec-group](/assets/images/aws-adding-sec-group.png)  -->
+<img src="/assets/images/aws-adding-sec-group.png" />
+<a name="Figure7"></a>
 *Figure 7: Adding the new security group to your instance.*
 
 ### 2.2. Installing Jupyter Notebook on your server
@@ -122,7 +133,9 @@ $ jupyter notebook --no-browser --port=8888
 
 Finally, in your local machine, you can access Jupyter in your favorite browser with `http://localhost:8000`. There, you will be asked to insert the password you used earlier, as shown in [Figure 8](#Figure8).
 
-![aws-jupyter](/assets/images/aws-jupyter.png) <a name="Figure8"></a>
+<!-- ![aws-jupyter](/assets/images/aws-jupyter.png)  -->
+<img src="/assets/images/aws-jupyter.png" />
+<a name="Figure8"></a>
 *Figure 8: Jupyter from the server asking for a password in the local machine.*
 
 ## Enjoy your Jupyter Notebook server!
