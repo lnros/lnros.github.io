@@ -55,7 +55,7 @@ NN are universal approximators. This means that for all fixed precision paramete
 In order to compute the sample complexity of learning a class $$\mathcal{H}_{V,E,\sigma}$$ one has to find this class's VC dimension. For the sign activation function, the VC dimension depends on the number of parameters needed to learn. Thus, given that the model has to learn $\mid E \mid$ parameters (since the weights are a mapping from the edges to the real numbers), the VC dimension of $$\mathcal{H}_{V,E,sign}$$ is $$O(\mid E \mid \log(\mid E \mid))$$. The main idea behind the proof is the following: 
 
 
-Let the hypothesis class be written as a composition of hypothesis classes for every layer. Hence, we have that the product of the growth functions for every class is the upper bound of the growth function of the composition. Also, let each hypothesis class for every layer be a product of function classes. Then, the growth function of every layer's hypothesis class is bounded by the product of the classes. Having that a neuron is a homogeneuos halfspace hypothesis and that the VC dimenstion of homogeneus halfspaces is the dimension of their input, we can apply Sauer's lemma. Finally, performing some calculation we arrive at the formal proof.
+Let the hypothesis class be written as a composition of hypothesis classes for every layer. Hence, we have that the product of the growth functions for every class is the upper bound of the growth function of the composition. Also, let each hypothesis class for every layer be a product of function classes. Then, the growth function of every layer's hypothesis class is bounded by the product of the classes. Having that a neuron is a homogeneuos halfspace hypothesis and that the VC dimenstion of homogeneus halfspaces is the dimension of their input, we can apply [Sauer's lemma][sauer-lemma]. Finally, performing some calculation we arrive at the formal proof.
 
 
 For the sigmoid activation function, the VC dimension has both lower and upper bounds. The first is the squared value of parameters and the second is the product of the square number of neurons and the square number of parameters. But, by discretization of the problem, given what happens in practice, the VC dimension is $O(\mid E \mid)$.
@@ -119,4 +119,5 @@ Recall that the set of nodes is decomposed into layers. For every layer there is
 [bp-nn]: https://en.wikipedia.org/wiki/Backpropagation
 [act-fun]: https://en.wikipedia.org/wiki/Activation_function
 [erm]: https://en.wikipedia.org/wiki/Empirical_risk_minimization
+[sauer-lemma]: https://en.wikipedia.org/wiki/Sauer%E2%80%93Shelah_lemma
 
