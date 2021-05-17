@@ -1146,7 +1146,7 @@ plot_model(best, plot='boundary')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_28_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_28_0.png" />
 
 
 
@@ -1156,7 +1156,7 @@ plot_model(best, plot='confusion_matrix')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_29_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_29_0.png" />
 
 
 
@@ -1166,7 +1166,7 @@ plot_model(tuned_knn, plot='pr')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_30_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_30_0.png" />
     
 
 
@@ -1177,7 +1177,7 @@ plot_model(tuned_knn, plot='class_report')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_31_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_31_0.png" />
     
 
 
@@ -1188,7 +1188,7 @@ plot_model(tuned_knn, plot='confusion_matrix')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_32_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_32_0.png" />
     
 
 
@@ -1199,7 +1199,7 @@ plot_model(tuned_knn, plot='auc')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_33_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_33_0.png" />
     
 
 
@@ -1364,7 +1364,7 @@ interpret_model(rf, plot='summary')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_37_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_37_0.png" />
 
 
 ### Correlation plot
@@ -1376,7 +1376,7 @@ interpret_model(rf, plot='correlation')
 
 
     
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_39_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_39_0.png" />
     
 
 
@@ -1390,7 +1390,7 @@ interpret_model(rf, plot='reason')
 ```
 
 
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_40_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_40_0.png" />
 
 
 
@@ -1402,7 +1402,7 @@ interpret_model(rf, plot='reason', observation=10)
 ```
 
 
-<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_41_0.png" />
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret_Tutorial_41_0.png" />
 
 
 
