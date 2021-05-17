@@ -15,7 +15,7 @@ This tutorial will not cover PyCaret as a whole, but it will rather focus on the
 Lichman, M. (2013). [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
 
 
-> OBS: this post was automatically generated from my [Jupyter Notebook](https://github.com/lnros/lnros.github.io/blob/master/notebooks/PyCaret_Tutorial.ipynb) thanks to Adam Blomberg's [post](https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html).
+> OBS: This post was automatically generated from my [Jupyter Notebook](https://github.com/lnros/lnros.github.io/blob/master/notebooks/PyCaret_Tutorial.ipynb) thanks to Adam Blomberg's [post](https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html).
 
 ## What is PyCaret?
 
