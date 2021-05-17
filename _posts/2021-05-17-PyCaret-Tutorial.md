@@ -15,7 +15,7 @@ This tutorial will not cover PyCaret as a whole, but it will rather focus on the
 Lichman, M. (2013). [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml). Irvine, CA: University of California, School of Information and Computer Science.
 
 
-> OBS: this post was automatically generated from my [Jupyter Notebook](https://github.com/lnros/lnros.github.io/blob/master/notebooks/PyCaret_Tutorial.ipynb) thanks to Adam Blomberg's [post](https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html).
+> observation: this post was automatically generated from my [Jupyter Notebook](https://github.com/lnros/lnros.github.io/blob/master/notebooks/PyCaret_Tutorial.ipynb) thanks to Adam Blomberg's [post](https://blomadam.github.io/tutorials/2017/04/09/ipynb-to-Jekyll-Post-tools.html).
 
 ## What is PyCaret?
 
@@ -1146,8 +1146,7 @@ plot_model(best, plot='boundary')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_28_0.png)
-    
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_28_0.png" />
 
 
 
@@ -1157,8 +1156,7 @@ plot_model(best, plot='confusion_matrix')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_29_0.png)
-    
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_29_0.png" />
 
 
 
@@ -1168,7 +1166,7 @@ plot_model(tuned_knn, plot='pr')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_30_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_30_0.png" />
     
 
 
@@ -1179,7 +1177,7 @@ plot_model(tuned_knn, plot='class_report')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_31_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_31_0.png" />
     
 
 
@@ -1190,7 +1188,7 @@ plot_model(tuned_knn, plot='confusion_matrix')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_32_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_32_0.png" />
     
 
 
@@ -1201,7 +1199,7 @@ plot_model(tuned_knn, plot='auc')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_33_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_33_0.png" />
     
 
 
@@ -1366,8 +1364,7 @@ interpret_model(rf, plot='summary')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_37_0.png)
-    
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_37_0.png" />
 
 
 ### Correlation plot
@@ -1379,7 +1376,7 @@ interpret_model(rf, plot='correlation')
 
 
     
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_39_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_39_0.png" />
     
 
 
@@ -1393,7 +1390,7 @@ interpret_model(rf, plot='reason')
 ```
 
 
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_40_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_40_0.png" />
 
 
 
@@ -1405,7 +1402,7 @@ interpret_model(rf, plot='reason', observation=10)
 ```
 
 
-![png](/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_41_0.png)
+<img src="/assets/images/PyCaret_Tutorial_files/PyCaret%20Tutorial_41_0.png" />
 
 
 
