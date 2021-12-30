@@ -25,6 +25,8 @@ search: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+    math_engine: katex
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -63,7 +65,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://lnros.github.io/"
+      url: "https://www.leoanddata.com/"
     - label: "E-mail"
       icon: "fas fa-envelope"
       url: "mailto:nudel.rosenberg@gmail.com"
